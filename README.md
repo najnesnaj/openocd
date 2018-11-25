@@ -18,6 +18,9 @@ then I used my_configure.sh (script) to configure openocd
 (followed by make and make install)
 
 
+to wire the nrf51 smartwatch, connect clk to pin 12 and dio to pin 10 (see file wiring)
+
+
 to start openocd for the nrf51 microcontroller: (see startdebugger script)
 
 
