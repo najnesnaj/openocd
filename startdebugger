@@ -1,0 +1,2 @@
+openocd -f  /usr/local/share/openocd/scripts/interface/sysfsgpio-raspberrypi.cfg -c 'transport select swd'   -f /usr/local/share/openocd/scripts/target/nrf51.cfg -c 'bindto 0.0.0.0'
+
