@@ -11,7 +11,7 @@
 #define BUILD_AMTJTAGACCEL 0
 
 /* 0 if you do not want the Olimex ARM-JTAG-EW Programmer. */
-/* #undef BUILD_ARMJTAGEW */
+#define BUILD_ARMJTAGEW 1
 
 /* 0 if you don't want at91rm9200. */
 #define BUILD_AT91RM9200 0
@@ -23,7 +23,7 @@
 #define BUILD_BUSPIRATE 0
 
 /* 0 if you do not want the CMSIS-DAP Compliant Debugger. */
-/* #undef BUILD_CMSIS_DAP */
+#define BUILD_CMSIS_DAP 1
 
 /* 0 if you don't want dummy driver. */
 #define BUILD_DUMMY 0
@@ -53,13 +53,13 @@
 #define BUILD_IMX_GPIO 0
 
 /* 0 if you do not want the SEGGER J-Link Programmer. */
-#define BUILD_JLINK 1
+/* #undef BUILD_JLINK */
 
 /* 0 if you don't want JTAG VPI. */
 #define BUILD_JTAG_VPI 0
 
 /* 0 if you do not want the Cypress KitProg Programmer. */
-/* #undef BUILD_KITPROG */
+#define BUILD_KITPROG 1
 
 /* Use the dummy minidriver. */
 /* #undef BUILD_MINIDRIVER_DUMMY */
@@ -71,7 +71,7 @@
 #define BUILD_OPENDOUS 1
 
 /* 0 if you do not want the OpenJTAG Adapter. */
-/* #undef BUILD_OPENJTAG */
+#define BUILD_OPENJTAG 1
 
 /* 0 if you do not want the OSBDM (JTAG only) Programmer. */
 #define BUILD_OSBDM 1
@@ -80,13 +80,13 @@
 #define BUILD_PARPORT 0
 
 /* 0 if you do not want the ASIX Presto Adapter. */
-/* #undef BUILD_PRESTO */
+#define BUILD_PRESTO 1
 
 /* 0 if you don't want the Remote Bitbang JTAG driver. */
 #define BUILD_REMOTE_BITBANG 0
 
 /* 0 if you do not want the Raisonance RLink JTAG Programmer. */
-/* #undef BUILD_RLINK */
+#define BUILD_RLINK 1
 
 /* 0 if you don't want SysfsGPIO driver. */
 #define BUILD_SYSFSGPIO 1
@@ -98,10 +98,10 @@
 #define BUILD_ULINK 1
 
 /* 0 if you do not want the USBProg JTAG Programmer. */
-/* #undef BUILD_USBPROG */
+#define BUILD_USBPROG 1
 
 /* 0 if you do not want the Altera USB-Blaster Compatible. */
-/* #undef BUILD_USB_BLASTER */
+#define BUILD_USB_BLASTER 1
 
 /* 0 if you do not want the Altera USB-Blaster II Compatible. */
 #define BUILD_USB_BLASTER_2 1
